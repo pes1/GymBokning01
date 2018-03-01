@@ -24,11 +24,11 @@ namespace GymBokning01.Migrations
                 c => c.Id,
                 new GymClass
                 {
-                    Id = 1001,
-                    Name = Stretch,
+                    Id          = 1001,
+                    Name        = "Stretch",
                     Description = "Sträck & drag",
-                    Duration = new TimeSpan(hours: 0, minutes = 45, seconds = 0),
-                    StartTime = new DateTime(year: 2018, month: 3, day:7, calendar: "sv-SE")
+                    Duration    = new TimeSpan(hours: 0, minutes:45, seconds:0),
+                    StartTime   = new DateTime(year: 2018, month: 3, day:7, hour:7, minute:0, second:0)
                     
                 });
                     
